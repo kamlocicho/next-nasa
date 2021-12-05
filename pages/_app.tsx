@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       <motion.div key={router.route} initial="pageInitial" animate="pageAnimate" exit="pageExit" variants={{
         pageInitial: {
           x: 0,
-          y: '-100%'
+          y: '100%'
         },
         pageAnimate: {
           x: 0,

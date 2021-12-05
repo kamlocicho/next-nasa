@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
   return (
     <div style={{ position: 'relative', width: '100vw', height: '100vh' }}>
-      <Image src="/background.jpg" layout="fill" alt="Background space image" />
+      <Image priority={true} src="/background.jpg" layout="fill" alt="Background space image" />
       <div className={styles.input_container}>
         <h1 className={styles.input_title}>NASA Image API Browser</h1>
         <form onSubmit={event => submitHandler(event)}>
